@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+header, footer{
+  background-color: #07203F;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+header{
+  border-bottom: solid 1px;
+  border-color: #0ECCCC;
+}
+
+section{
+  background-color: #07203F;
+}
+
+.container{
+  max-width: 1440px;
+  margin: auto;
+  padding: 55px 135px;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nick{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.links{
+  font-family: 'Inter';
+  font-weight: 400;
+  display: flex;
+  gap: 40px; 
+}
+
+a{
+  color: #FFFFFF;
+}
+
+#about{
+  padding: 135px 135px;
+}
+
+.about{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 62px;
+  text-transform: uppercase;
+  text-align: left;
+  color: white;
+}
+
+p{
+  font-family: Roboto;
+  text-transform: none;
+  font-size: 36px;
+  text-align: left;
+  color: white;
+}
+
+button{
+  background-color: #D9D9D9;
+  padding: 28px 68px;
+  border-radius: 50px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+button:hover{
+    background: #B7D9D9;
+}
+
+.pic{
+  box-sizing: border-box;
+}
+
+#pic{
+  width: 516px;
+  height: 516px;
+  border-radius: 50%;
+}
+
+/* section2 */
+
+.container_skills{
+  max-width: 1440px;
+  margin: auto;
+  padding: 135px 135px 150px 135px;
+  text-transform: uppercase;
+  background-image: url(https://s3-alpha-sig.figma.com/img/6083/7445/0b8192d8b3f6171a16dbc23ffcca9c13?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oTGorlmlYqUw593ZcjINkPbMgNcH6TiCUIMI-6QZzclSznVLxGJJif1twxHAOBasZtPCRw2F08f81CuS1UHFVm4VtLYS180QefQCcTYnuMDVlsF667Y0LWHaOs1MUj1TOfOGJhILMfnXmDPk2DjtA9jTxSTAgqKvurTEqhekq4XHqv40kjjOIeWlUFPpkODXa9YwHV8mnWes5vo9h617vuZCB54Nm09~nmLbAGMbeBjzR6DZBDtabpF24jZa0jDGFJIX6Q6q-SoSi0-~-WXSwhbomsGadMJgfnfUGrNTeuWbcUn~Jl2IczpQFo7~2TKl2usWCrxozybUl0fPJzHXJw__);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2{
+  margin: 0px 410px 70px 410px;
+  font-family: Montserrat;
+  font-size: 72px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.img_card{
+  width: 100%;
+  height: 223px;
+  object-fit: cover;
+}
+
+.html, .js{
+  width: 350px;
+  border: solid 5px;
+  border-color: #D9AA90;
+  background: #07203F 50% / cover no-repeat;
+}
+
+.css{
+    width: 350px;
+    border: solid 5px;
+    border-color: #07203F;
+    background: #D9AA90 50% / cover no-repeat;
+}
+
+h3{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin: 38px;
+}
+
+/* section3 */
+
+.container_projects{
+  max-width: 1440px;
+  margin: auto;
+  padding: 135px 165px 15px 165px;
+  color: white;
+}
+
+#projects{
+  margin: 0px 248px 70px 248px;
+  color: white;
+}
+
+.project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 135px;
+}
+
+.container_projects :nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.project_image{
+  width: 540px;
+  height: 367px;
+  object-fit: cover;
+  box-shadow: 10px 5px 5px gray;
+}
+
+h4{
+  color: #FFF;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* section 4 */
+
+.container_request{
+  max-width: 1440px;
+  max-height: 1141px;
+  margin: auto;
+  padding: 135px 335px;
+  color: white;
+  box-sizing: border-box;
+/*   display: flex;
+  justify-content: space-between; */
+  background: #EADED4;
+}
+
+#req{
+  margin: auto;
+}
+
+.req_card{
+  width: 759px;
+  height: 662px;
+  background: #FFF;
+  margin: 70px 0px 15px 0px;
+  padding: 77px 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  width: 631px;
+  height: 98px;
+  background: rgba(234, 222, 212, 0.35);
+  padding: 24px 36px 30px 31px;
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   box-sizing: border-box;
+}
+
+.buttons{
+  display: flex;
+  margin: 30px 0px 0px 0px;
+  justify-content: space-between;
+}
+
+#request{
+  display: flex;
+  width: 266px;
+  height: 68px;
+  padding: 8px 25px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(234, 222, 212, 0.80);
+  border-radius: 0px;
+  text-transform: none;
+  font-size: 36px;
+  color: #000;
+}
+
+/* section contacts */
+
+.container_cont{
+  max-width: 1440px;
+  margin: auto;
+  padding: 135px 135px 180px 135px;
+  text-transform: uppercase;
+  background-image: url(https://img.freepik.com/free-photo/room-interior-renovation-indoor-paint_53876-138231.jpg?w=1380&t=st=1705857497~exp=1705858097~hmac=6f86a0bd19a502ab3d77c2e5b720716f59cdf9656caf2c247ef34ec2d146d1ea);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.card_cont{
+  width: 350px;
+  height: 350px;
+  background: #07203F;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#telegram{
+  background: #D9AA90;
+}
+
+h4{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+
+#contact{
+  width: 298.9px;
+  height: 69.3px;
+  padding: 13px 54px;
+  font-family: Montserrat;
+}
+
+/* footer */
+
+footer{
+  border-top: solid 1px;
+  border-color: #FFF;
+}
+
